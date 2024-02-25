@@ -13,6 +13,12 @@
 		61B7F3062B81D6450060C6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B7F3042B81D6450060C6A1 /* Main.storyboard */; };
 		61B7F3082B81D6460060C6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B7F3072B81D6460060C6A1 /* Assets.xcassets */; };
 		61B7F30B2B81D6460060C6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B7F3092B81D6460060C6A1 /* LaunchScreen.storyboard */; };
+		61B7F3132B81D9350060C6A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7F3122B81D9350060C6A1 /* Extensions.swift */; };
+		61B7F3172B81DA5B0060C6A1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7F3152B81DA5B0060C6A1 /* Models.swift */; };
+		61B7F3182B81DA5B0060C6A1 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7F3162B81DA5B0060C6A1 /* Texts.swift */; };
+		61B7F31B2B81E9C60060C6A1 /* ClientTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7F3192B81E9C50060C6A1 /* ClientTVCell.swift */; };
+		61B7F31C2B81E9C60060C6A1 /* ClientTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B7F31A2B81E9C60060C6A1 /* ClientTVCell.xib */; };
+		61B7F31E2B81EA7A0060C6A1 /* TelegramSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7F31D2B81EA7A0060C6A1 /* TelegramSender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		61B7F3072B81D6460060C6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61B7F30A2B81D6460060C6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61B7F30C2B81D6460060C6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B7F3122B81D9350060C6A1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		61B7F3152B81DA5B0060C6A1 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		61B7F3162B81DA5B0060C6A1 /* Texts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		61B7F3192B81E9C50060C6A1 /* ClientTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTVCell.swift; sourceTree = "<group>"; };
+		61B7F31A2B81E9C60060C6A1 /* ClientTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClientTVCell.xib; sourceTree = "<group>"; };
+		61B7F31D2B81EA7A0060C6A1 /* TelegramSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramSender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +71,26 @@
 				61B7F2FE2B81D6450060C6A1 /* AppDelegate.swift */,
 				61B7F3002B81D6450060C6A1 /* SceneDelegate.swift */,
 				61B7F3022B81D6450060C6A1 /* ViewController.swift */,
+				61B7F31D2B81EA7A0060C6A1 /* TelegramSender.swift */,
+				61B7F3122B81D9350060C6A1 /* Extensions.swift */,
 				61B7F3042B81D6450060C6A1 /* Main.storyboard */,
 				61B7F3072B81D6460060C6A1 /* Assets.xcassets */,
 				61B7F3092B81D6460060C6A1 /* LaunchScreen.storyboard */,
 				61B7F30C2B81D6460060C6A1 /* Info.plist */,
+				61B7F3192B81E9C50060C6A1 /* ClientTVCell.swift */,
+				61B7F31A2B81E9C60060C6A1 /* ClientTVCell.xib */,
+				61B7F3142B81DA5B0060C6A1 /* Models */,
 			);
 			path = SupCaller;
+			sourceTree = "<group>";
+		};
+		61B7F3142B81DA5B0060C6A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61B7F3152B81DA5B0060C6A1 /* Models.swift */,
+				61B7F3162B81DA5B0060C6A1 /* Texts.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +153,7 @@
 			files = (
 				61B7F30B2B81D6460060C6A1 /* LaunchScreen.storyboard in Resources */,
 				61B7F3082B81D6460060C6A1 /* Assets.xcassets in Resources */,
+				61B7F31C2B81E9C60060C6A1 /* ClientTVCell.xib in Resources */,
 				61B7F3062B81D6450060C6A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B7F3182B81DA5B0060C6A1 /* Texts.swift in Sources */,
+				61B7F31E2B81EA7A0060C6A1 /* TelegramSender.swift in Sources */,
 				61B7F3032B81D6450060C6A1 /* ViewController.swift in Sources */,
 				61B7F2FF2B81D6450060C6A1 /* AppDelegate.swift in Sources */,
 				61B7F3012B81D6450060C6A1 /* SceneDelegate.swift in Sources */,
+				61B7F3172B81DA5B0060C6A1 /* Models.swift in Sources */,
+				61B7F31B2B81E9C60060C6A1 /* ClientTVCell.swift in Sources */,
+				61B7F3132B81D9350060C6A1 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
