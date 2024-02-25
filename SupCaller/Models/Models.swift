@@ -14,8 +14,8 @@ struct Client {
 }
 
 extension Client {
-    
-    public static func getTestClients() -> [Client]{
+
+    public static func getTestClients() -> [Client] {
 //        немножко тестовых записей, чтобы приложение не выглядело пустым при запуске
         let testClients = [
             Client(name: "First Client", inputNumber: "+375251112233", convertedNumber: "**80251112233"),

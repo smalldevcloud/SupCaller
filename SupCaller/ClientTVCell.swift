@@ -8,20 +8,18 @@
 import UIKit
 
 class ClientTVCell: UITableViewCell {
-    
     static let identifier = "clientsTVCell"
-    
-    var callButtonHandler:(()->())?
-    
+    var callButtonHandler: (() -> Void)?
+
     @IBOutlet weak var clientName: UILabel!
     @IBOutlet weak var clientNumber: UILabel!
     @IBOutlet weak var callButton: UIButton!
-    
+
     @IBAction func callButtonPressed(_ sender: Any) {
         //        вызов замыкания по нажатию кнопки
                 callButtonHandler?()
     }
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         backgroundColor = .backgroundCellColor
@@ -29,11 +27,4 @@ class ClientTVCell: UITableViewCell {
         callButton.layer.cornerRadius = callButton.frame.width / 2
         callButton.layer.cornerCurve = .circular
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
 }

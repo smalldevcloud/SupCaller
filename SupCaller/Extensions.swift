@@ -15,7 +15,7 @@ extension UIViewController {
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
-    
+
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
@@ -24,5 +24,5 @@ extension UIViewController {
 extension UIColor {
     static let backgroundViewColor = UIColor(named: "backgroundViewColor")
     static let backgroundCellColor = UIColor(named: "backgroundCellColor")
-    
+
 }
